@@ -1,0 +1,11 @@
+{
+    "name": "PogBot",
+    "version": "0.0.1",
+    "description": "A simple chatbot for Discord.",
+    "repository": "https://github.com/Fman72/Pogbot.git",
+    "author": "Fraser Kearns",
+    "dependencies": {
+        "request": ">=2.79.0",
+	    "discord.js": ">=10.0.1"
+    }
+}
