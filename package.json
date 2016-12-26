@@ -6,6 +6,6 @@
     "author": "Fraser Kearns",
     "dependencies": {
         "request": ">=2.79.0",
-	    "discord.js": ">=10.0.1"
+	"discord.js": ">=10.0.1"
     }
 }

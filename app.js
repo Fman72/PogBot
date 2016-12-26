@@ -81,4 +81,11 @@ var extractWordAtPosition = function(message, position){
 }
 
 
-client.login('Your token here.');
+client.login('Your token here.').then(
+function(){
+	console.log("Logged in successfully!");
+},
+function(){
+	console.log("You did not enter a valid bot token");
+	process.exit(1);
+});
